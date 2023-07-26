@@ -1,10 +1,11 @@
 import numpy as np
 #lies eine Zahl aus der Konsole ein
-radius = input("Gib einen Radius für deinen Kreis ein")
-#füge oben die benötigten imports hinzu
+r = int(input("Gib einen Radius ein"))
 pi = np.pi
+#füge oben die benötigten imports hinzu
+fi = str(r*r*pi)
 #erstelle eine pi Variable mithilfe der NumPy Bibliothek
-fi = pi*radius*radius
+
 #Berechne den Flächeninhalt des Kreises Tipp: pi*r²
-print("Der Flaecheninhalt beträgt: "+fi)
+print("Der errechnete Flaecheninhalt ist: "+ fi)
 #Gib das Ergebnis auf der Konsole aus
